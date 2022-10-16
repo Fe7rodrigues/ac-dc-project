@@ -26,6 +26,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background: #000000;
+    opacity: 0.9;
     height: 8vh;
     font-family: 'Open Sans', sans-serif;
 }
@@ -51,37 +52,39 @@ main {
 text-align: center;
 right: auto;
 left: auto;
-
-
+background-color: #D20015;
 
 }
 
-.home__title{
+.home__subtitle {
+text-align: -moz-center;
+color: #ffffff;
+font-family: 'Open Sans', sans-serif;
+}
+
+.home__title {
     position: absolute;
-    width: 693px;
-    height: 200px;
-    left: 658.43px;
-    top: 724px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 120px;
-    line-height: 100px;
-    color: #FFFFFF;
-    transform: rotate(5deg);
+    top: 550px;
+    right: 200px;
+    font-size: 60px;
+    color: #ffffff;
+    transform: rotate(10deg);
 }
 
-.home__subtitle{
-position: absolute;
-width: 820px;
-height: 130px;
-left: 102.33px;
-top: 862px;
-font-family: 'Code Bold';
-font-style: normal;
-font-weight: 700;
-font-size: 120px;
-line-height: 130px;
-color: #FFFFFF;
-transform: rotate(5deg);
+.home__subtitle1 {
+    position: absolute;
+    top: 582px;
+    right: 300px;
+    font-size: 80px;
+    color: #ffffff;
+    transform: rotate(10deg);
+}
+
+.home__subtitle2 {
+    position: absolute;
+    top: 682px;
+    right: 414px;
+    font-size: 60px;
+    color: #ffffff;
+    transform: rotate(10deg);
 }
