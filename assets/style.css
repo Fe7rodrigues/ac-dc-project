@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.logo {
+position: absolute;
+width: 104px;
+height: 41px;
+left: 60px;
+top: 34px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo img {
+  top: 10px;
+  position: absolute;
+  max-width: 104px;
+  height: 41px;
+  left: 6px;
+  top: -18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  background: #e50105;;
+  height: 8vh;
+}
+
+main {
+  background: url("/assets/img/home.png") no-repeat
+  center center;
+  background-size: cover;
+  height: 92vh;
+  padding-top: 100px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.title-home {
+  position: absolute;
+  height: 41px;
+  left: 200px;
+  top: 510px;
+  font-size: 50px;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtitle-home {
+position: absolute;
+width: 212px;
+height: 40px;
+left: 1308px;
+top: 230px;
+font-family: 'Noah';
+font-size: 18px;
+color: #ffffff;
+}
