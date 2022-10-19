@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans&family=Raleway&family=Shadows+Into+Light&display=swap');
 
 * {
 margin: 0;
@@ -46,6 +46,8 @@ main {
   background-size: cover;
   height: 92vh;
   padding-top: 100px;
+  width: 100%;
+  right: 0;
 }
 
 .nav-list {
@@ -65,7 +67,7 @@ main {
   top: 510px;
   font-size: 30px;
   color: #ffffff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .subtitle-home {
@@ -97,7 +99,7 @@ color: #ffffff;
   font-family: 'Code Bold';
   font-style: oblique;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 48px;
   color: #ffffff;
   padding: 0 0;
@@ -133,40 +135,114 @@ top: 42px;
 font-family: 'IBM Plex Mono', monospace;
 font-style: normal;
 font-weight: 700;
-font-size: 15px;
+font-size: 20px;
 line-height: 42px;
 color: #EB0003;
 }
 
 .group-subtitle {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
-  line-height: 27px;
+  font-size: 20px;
+  line-height: 33px;
   width: 200px;
   height: 200px;
 }
 
 .group-subtitle span {
   color: #EB0003;
-  font-size: 30px;
+  font-size: 45px;
 }
 
-.group-subtitle::after {
-content: '';
-position: absolute;
-display: flex;
-width: 342px;
-height: -21px;
-left: 153px;
-top: 213px;
-background: #e50105;
-border: 1px solid #eb0000;
-transform: rotate(-84.94deg);
-}
 
-.group-subtltle1 {
+.group-subtitle-1 {
   position: relative;
   color: #ffffff;
   left: 66px;
-  top: 100px;
+  top: 178px;
 }
+
+.group-subtitle-2 {
+  position: relative;
+  color: #ffffff;
+  left: 420px;
+  top: -68px;
+}
+
+.group-subtitle-3 {
+  position: relative;
+  color: #ffffff;
+  left: 806px;
+  top: -437px;
+}
+
+.group-description {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 18px;
+  width: 360px;
+  height: 130px;
+  left: 920px;
+  top: 3049px;
+  color: #ffffff;
+}
+
+.group-description-1 {
+  position: relative;
+  color: #ffffff;
+  left: 66px;
+  top: -105px;
+}
+
+.group-description-2 {
+  position: relative;
+  color: #ffffff;
+  left: 1044px;
+  top: -235px;
+}
+
+
+.imagem-vocalist {
+position: absolute;
+width: 418px;
+height: 235px;
+left: 1044px;
+top: 974px;
+background: url(assets/.imagem-vocalist) no-repeat;
+}
+
+
+/* Ellipse 3 */
+
+/* .imagem-vocalist {
+position: absolute;
+width: 240px;
+height: 240px;
+left: 976px;
+top: 3273px;
+background: #C4C4C4;
+} */
+
+  /* Linhas */
+
+  .group-subtitle-1::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    width: 342px;
+    height: -21px;
+    left: 94px;
+    top: 213px;
+    border: 1px solid #eb0000;
+    transform: rotate(-84.94deg);
+    }
+    
+  .group-subtitle-2:after {
+    content: '';
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: -21px;
+    left: -213px;
+    top: 695px;
+    border: 1px solid #eb0000;
+    transform: rotate(-90deg);
+    }
