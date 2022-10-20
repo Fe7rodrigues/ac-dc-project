@@ -121,7 +121,7 @@ padding: 0 0;
 .group-section {
   position: absolute;
   width: 100%;
-  height: 1267px;
+  height:  1969px;
   left: 0px;
   top: 1386px;
   background: #000000;
@@ -196,30 +196,118 @@ color: #EB0003;
   position: relative;
   color: #ffffff;
   left: 1044px;
-  top: -235px;
+  top: -475px;
 }
 
 
 .imagem-vocalist {
 position: absolute;
-width: 418px;
-height: 235px;
-left: 1044px;
-top: 974px;
-background: url(assets/.imagem-vocalist) no-repeat;
+display: flex;
+top: 775px;
+left: 934px;
+max-width: 50px;
 }
 
+.imagem-vocalist img {
+  border-radius: 50%;
+  height: 250px;
 
-/* Ellipse 3 */
+}
 
-/* .imagem-vocalist {
+.vocalist-description {
 position: absolute;
-width: 240px;
-height: 240px;
-left: 976px;
-top: 3273px;
-background: #C4C4C4;
-} */
+width: 402px;
+height: 150px;
+left: 813px;
+top: 1162px;
+line-height: 66px;
+}
+
+.vocalist-description h2 {
+  font-size: 50px;
+}
+
+.imagem-guitar-player img {
+  position: absolute;
+  width: 322px;
+  height: 253px;
+  left: 66px;
+  transform: rotate(353deg);
+}
+
+.imagem-guitar-player {
+  position: absolute;
+  top: 1086px;
+}
+
+.group-description-3 {
+  position: relative;
+  color: #ffffff;
+  left: 66px;
+  top: 380px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.lightning {
+  position: absolute;
+  background: #EB0003;
+  width: 100%;
+  height: 1000px;
+  top: 3355px;
+}
+
+.lightning img {
+position: absolute;
+  width: 350px;
+  left: 573px;
+  top: 15px;
+}
+.lightning-description1 {
+  position: absolute;
+  color: #ffffff;
+  top: 3355px;
+  left: 66;
+}
+
+.lightning-description1 {
+  position: absolute;
+  color: #EB0003;
+  left: 550px;
+  top: 20px;
+  width: 455px;
+  height: 85px;
+  font-size: 35px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.lightning-description1 h2 {
+  user-select: none;
+}
+
+.lightning-description2 {
+  position: absolute;
+  color: #ffffff;
+  left: -173px;
+  top: 275px;
+  width: 769px;
+  height: 175px;
+  font-size: 35px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.discographi {
+  position: absolute;
+  width: 100%;
+  height:  10px;
+  left: none;
+  top: 4355px;
+  background: #000000;
+}
+
+.discographi-title {
+  color:  #EB0003;
+}
+
 
   /* Linhas */
 
