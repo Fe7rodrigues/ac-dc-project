@@ -15,7 +15,7 @@
 ## 🖥️ Demonstration
 ![home](preview.png)
 
-You can access the project by clicking [here](https://fe7rodrigues.github.io/neroflix/).
+You can access the project by clicking [here](https://fe7rodrigues.github.io/ac-dc-project/).
 
 
 ---
