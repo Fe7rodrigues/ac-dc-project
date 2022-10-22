@@ -6,17 +6,23 @@
 ---
 
 ## 🚀 Technologies and tools used
-- **HTML5** - [X]
-- **CSS3** - [X]
-- **jAVASCRIPT** - []
+
+- [x] HTML
+- [x] CSS
+- [ ] JAVASCRIPT
 
 ---
 
 ## 🖥️ Demonstration
+<<<<<<< HEAD
 ![home](preview.png)
 
 You can access the project by clicking [here](https://fe7rodrigues.github.io/ac-dc-project/).
+=======
+![home](https://github.com/Fe7rodrigues/ac-dc-project/blob/main/assets/img/preview.png?raw=true)
+>>>>>>> 78c06d9532401c4378c0601515c7686a79255d50
 
+You can access the project by clicking [here](https://fe7rodrigues.github.io/ac-dc-project/).
 
 ---
 
